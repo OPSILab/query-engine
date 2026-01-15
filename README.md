@@ -8,3 +8,5 @@ Send a POST request to http://localhost:3000/api/query with the beopen bearer to
 } 
 
 Note: the "-" symbols in bucket name must be not included in the query
+
+
