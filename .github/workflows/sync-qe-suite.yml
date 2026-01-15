@@ -28,7 +28,7 @@ jobs:
       - name: Set branch name
         run: echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
-      - name: Clone repo padre
+      - name: Clone suite
         run: |
           cd ..
           git clone git@github.com:OPSILab/query-engine-suite.git
