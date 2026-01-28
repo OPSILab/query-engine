@@ -65,7 +65,7 @@ services:
       #- .:/workspace:cached
       command: sleep infinity
 
-      
+
 
   libretranslate:
     image: libretranslate/libretranslate:latest
@@ -76,6 +76,8 @@ services:
       - LT_LOAD_ONLY=en,it,bg,fi,sl
     ports:
       - "5000:5000"
+
+      
 
   redis:
     image: redis:7-alpine
